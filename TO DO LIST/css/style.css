@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    width:100%;
+    height: 100vh;
+     /* background-color: #a29bfe;  */
+    /* background-image: url(https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdHAyNDctZWxlbWVudC0wMTQ2LWt6b3hrZG43LnBuZw.png?s=4iDvxWTrc6mBSAGHzHPbyYhYrG-M2RF6RrmsVAxQkgo/8); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 2.8rem;
+    font-weight: 250;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    background-color:#ff9ff3 ;
+}
+
+.box{
+    width: 800px;
+    min-height: 500px;
+    background-color: #f78282;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#item{
+    width: 90%;
+    font-size: 30px;
+    padding: 12px;
+    border:0;
+    outline: 0;
+    display: block;
+    
+    box-shadow: #ff9ff3;
+}
+#todolist-box li {
+    position: relative;
+    background-color: #54e0f9;
+    color:#2c2c54;
+    padding:10px;
+    border-radius: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+    user-select: none;
+    font-size: 25px;
+
+}
+
+ body{
+    background-image: url(https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdHAyNDctZWxlbWVudC0wMTQ2LWt6b3hrZG43LnBuZw.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+    #todolist-box{
+    margin-top: 30px;
+    list-style: none;
+}
+
+#todolist-box li i{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.done{
+    text-decoration-line:line-through;
+    text-decoration-style:solid;
+    color: white;
+    background-color: #CAD3C8 !important;
+}
